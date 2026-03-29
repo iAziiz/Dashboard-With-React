@@ -11,12 +11,10 @@ function App() {
     <BrowserRouter>
     <Routes>
     
-    {/* <Route  path="/Login" element={<Login setIsLoggedIn={setIsLoggedIn}/>}></Route>
-    <Route path="/dashboard" element={ IsLoggedIn ? <DashBoardLayouts/> : <Navigate to={'/Login'}/>}>
-      
-      </Route> */}
+    <Route  path="/Login" element={<Login setIsLoggedIn={setIsLoggedIn}/>}></Route>
+    <Route path="/dashboard" element={ IsLoggedIn ? <DashBoardLayouts setIsLoggedIn={setIsLoggedIn} /> : <Navigate to={'/Login'}/> } />
 
-        <Route path="/dashboard" element={<DashBoardLayouts/>}> </Route>
+        {/* <Route path="/dashboard" element={<DashBoardLayouts/>}> </Route> */}
 
     </Routes>
    

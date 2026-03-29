@@ -3,7 +3,8 @@ function SideBar({activePage, onPagechange , onLoginOut}){
         {id:'dashboard', label:'Dashboard'},
         {id:'prodects', label:'Prodects'},
         {id:'orders', label:'Orders'},
-        {id:'users', label:'Users'}
+        {id:'users', label:'Users'},
+        {id:'API', label:'API'},
     ]
     return(
         <aside className="sidebar">

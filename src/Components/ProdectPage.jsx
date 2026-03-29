@@ -1,8 +1,6 @@
-import { prodectData } from "../data/data";
 import { useState } from "react";
 
-function ProductPage() {
-  const [prodects, setProdects] = useState(prodectData);
+function ProductPage({ prodects, setProdects }) {
   const [showForm, setShowForm] = useState(false);
   const [editingProduct, setEditingProduct] = useState(null);
 

@@ -86,63 +86,93 @@ export const prodectData = [
 export const orderData = [
   {
     id: 1,
+    customer: "Ahmed Ali",
     prodect_id: 1,
     quantity: 10,
     active: true
   },
   {
     id: 2,
+    customer: "Sara Mohammed",
     prodect_id: 2,
     quantity: 3,
     active: true
   },
   {
     id: 3,
+    customer: "Faisal Abdullah",
     prodect_id: 3,
     quantity: 7,
     active: false
   },
   {
     id: 4,
-    prodect_id: 1,
+    customer: "Nora Khaled",
+    prodect_id: 4,
     quantity: 2,
     active: true
   },
   {
     id: 5,
-    prodect_id: 4,
+    customer: "Omar Saeed",
+    prodect_id: 5,
     quantity: 15,
     active: true
   },
   {
     id: 6,
-    prodect_id: 5,
+    customer: "Lama Hassan",
+    prodect_id: 6,
     quantity: 1,
     active: false
   },
   {
     id: 7,
-    prodect_id: 2,
+    customer: "Abdulrahman Saleh",
+    prodect_id: 7,
     quantity: 20,
     active: true
   },
   {
     id: 8,
-    prodect_id: 6,
+    customer: "Reem Abdullah",
+    prodect_id: 8,
     quantity: 6,
     active: true
   },
   {
     id: 9,
-    prodect_id: 3,
+    customer: "Khaled Nasser",
+    prodect_id: 9,
     quantity: 12,
     active: false
   },
   {
     id: 10,
-    prodect_id: 7,
+    customer: "Huda Ibrahim",
+    prodect_id: 10,
     quantity: 4,
     active: true
   }
 ];
+
+
+export const usersData = [
+  { id: 1, name: "Ahmed Ali", email: "ahmed@email.com" },
+  { id: 2, name: "Sara Mohammed", email: "sara@email.com" },
+  { id: 3, name: "Faisal Abdullah", email: "faisal@email.com" },
+  { id: 4, name: "Nora Khaled", email: "nora@email.com" },
+  { id: 5, name: "Omar Saeed", email: "omar@email.com" },
+  { id: 6, name: "Lama Hassan", email: "lama@email.com" },
+  { id: 7, name: "Abdulrahman Saleh", email: "abd@email.com" },
+  { id: 8, name: "Reem Abdullah", email: "reem@email.com" },
+  { id: 9, name: "Khaled Nasser", email: "khaled@email.com" },
+  { id: 10, name: "Huda Ibrahim", email: "huda@email.com" },
+];
+
+
+
+
+
+
 
