@@ -12,7 +12,7 @@ function Login({setIsLoggedIn}) {
     const  HandleLogin = (e) => {
         e.preventDefault();
 
-        if(email === 'azooza629@gmail.com' && password === '123'){
+        if(email === 'admin@123.com' && password === '123'){
             setIsLoggedIn(true)
             navigate("/dashboard")
         }else {
